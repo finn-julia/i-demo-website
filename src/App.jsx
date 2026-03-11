@@ -87,7 +87,7 @@ const whyCards = [
   {
     number: '05',
     title: 'Safety First',
-    text: 'Disciplined safety practices protect our team, our partners, and the jobsite — because safe projects are productive projects.',
+    text: 'Our OSHA-certified team is committed to disciplined safety practices that protect our crew, our partners, and the jobsite — because safe projects are productive projects.',
   },
   {
     number: '06',
@@ -138,7 +138,7 @@ function HomePage() {
           <h2>Executed with Precision. Delivered Safely.</h2>
           <p className="hero-text">
             iDemo provides professional demolition services for commercial,
-            institutional, and multifamily construction projects. We help contractors and
+            industrial, and multifamily construction projects. We help contractors and
             owners prepare sites safely, efficiently, and on schedule so the next phase of
             construction can begin with confidence.
           </p>
@@ -184,7 +184,7 @@ function AboutPage() {
           </p>
           <p>
             Today, iDemo provides professional demolition services to public and private sector
-            clients across commercial, institutional, multifamily, and infrastructure projects.
+            clients across commercial, industrial, multifamily, and infrastructure projects.
           </p>
         </div>
 
