@@ -166,6 +166,7 @@ function AboutPage() {
         label="About Us"
         title="Built on Grit. Driven by Precision. Trusted to Deliver."
         subtitle="iDemo was founded on hard work, integrity, and relentless execution in the field."
+        dark
       />
       <section className="section about-section">
         <div className="container section-intro">
