@@ -59,6 +59,7 @@ const aboutPoints = [
   'Coordinate cleanly with all trades and project teams',
   'Solve field challenges quickly and intelligently',
   'Stand behind our work',
+  'Deliver consistent results on every project',
 ]
 
 const whyCards = [
@@ -374,6 +375,13 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
   const isHome = location.pathname === '/'
+  const pageTitles = {
+    '/': 'Home',
+    '/about': 'About',
+    '/services': 'Services',
+    '/why-idemo': 'Why iDemo',
+    '/contact': 'Contact',
+  }
 
   useEffect(() => {
     const closeMenu = () => setMenuOpen(false)
@@ -383,6 +391,10 @@ function App() {
 
   useEffect(() => {
     setMenuOpen(false)
+  }, [location.pathname])
+
+  useEffect(() => {
+    document.title = pageTitles[location.pathname] || 'iDemo'
   }, [location.pathname])
 
   return (
